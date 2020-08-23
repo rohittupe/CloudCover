@@ -70,10 +70,17 @@ public class Initializer {
 	{
 		if(requestSpec==null) {
 			PrintStream log = new PrintStream(new FileOutputStream("logging.txt"));
-			requestSpec=new RequestSpecBuilder().addHeader("Authorization", "Bearer "+prop.getProperty("api_token")).setBaseUri(prop.getProperty("baseUrl"))
-					.addFilter(RequestLoggingFilter.logRequestTo(log))
-					.addFilter(ResponseLoggingFilter.logResponseTo(log))
-					.setContentType(ContentType.JSON).build();
+			String apiKey = String.valueOf(prop.get("api_token"));
+			if(!apiKey.equalsIgnoreCase("null") && !(apiKey.startsWith("<") && apiKey.endsWith(">")))
+				requestSpec=new RequestSpecBuilder().addHeader("Authorization", "Bearer "+prop.getProperty("api_token")).setBaseUri(prop.getProperty("baseUrl"))
+				.addFilter(RequestLoggingFilter.logRequestTo(log))
+				.addFilter(ResponseLoggingFilter.logResponseTo(log))
+				.setContentType(ContentType.JSON).build();
+			else
+				requestSpec=new RequestSpecBuilder().setBaseUri(prop.getProperty("baseUrl"))
+				.addFilter(RequestLoggingFilter.logRequestTo(log))
+				.addFilter(ResponseLoggingFilter.logResponseTo(log))
+				.setContentType(ContentType.JSON).build();
 		}
 		return requestSpec;
 	}
