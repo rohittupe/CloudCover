@@ -1,0 +1,1572 @@
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges?page=1&pagesize=1&fromdate=1596220200&todate=1598725800&order=desc&sort=rank&inname=gnuradio&min=bronze&max=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 180
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAll
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 16
+x-redis-count: 10
+x-redis-duration-ms: 1
+x-flags: AA
+x-aspnet-duration-ms: 21
+x-request-guid: c8d3060c-4cbe-4e5e-a8de-fd66c44eceac
+x-is-crawler: 0
+set-cookie: prov=4c9d2afc-0432-4cea-960b-43d422ca4a24; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 4c9d2afc-0432-4cea-960b-43d422ca4a24
+date: Sat, 22 Aug 2020 11:32:03 GMT
+
+{
+    "items": [
+        {
+            "badge_type": "tag_based",
+            "award_count": 1,
+            "rank": "bronze",
+            "badge_id": 6540,
+            "link": "https://stackoverflow.com/badges/6540/gnuradio",
+            "name": "gnuradio"
+        }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 147
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges?page=1&pagesize=10&fromdate=&todate=&order=desc&sort=rank&inname=regression&min=silver&max=silver&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 209
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAll
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 6
+x-redis-count: 5
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 9
+x-request-guid: 6f01c272-f3af-4bc6-92f6-1c1279df6020
+x-is-crawler: 0
+set-cookie: prov=31e1c812-7344-44e6-86f0-d73888f9dd3f; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 31e1c812-7344-44e6-86f0-d73888f9dd3f
+date: Sat, 22 Aug 2020 11:32:05 GMT
+
+{
+    "items": [
+        {
+            "badge_type": "tag_based",
+            "award_count": 1,
+            "rank": "silver",
+            "badge_id": 6829,
+            "link": "https://stackoverflow.com/badges/6829/regression",
+            "name": "regression"
+        },
+        {
+            "badge_type": "tag_based",
+            "award_count": 1,
+            "rank": "silver",
+            "badge_id": 7988,
+            "link": "https://stackoverflow.com/badges/7988/linear-regression",
+            "name": "linear-regression"
+        }
+    ],
+    "has_more": false,
+    "quota_max": 300,
+    "quota_remaining": 146
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges?page=1&pagesize=10&fromdate=&todate=&order=desc&sort=rank&inname=regression&min=&max=gold&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 183
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAll
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 4
+x-redis-count: 4
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 6
+x-request-guid: 977238e3-3dd0-4ecd-878e-106d73f193d4
+x-is-crawler: 0
+set-cookie: prov=80d798bd-f8fe-41e2-851d-bb1b7e1d86b9; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 80d798bd-f8fe-41e2-851d-bb1b7e1d86b9
+date: Sat, 22 Aug 2020 11:32:07 GMT
+
+{
+    "items": [
+        {
+            "badge_type": "tag_based",
+            "award_count": 1,
+            "rank": "gold",
+            "badge_id": 8997,
+            "link": "https://stackoverflow.com/badges/8997/regression",
+            "name": "regression"
+        }
+    ],
+    "has_more": false,
+    "quota_max": 300,
+    "quota_remaining": 145
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges?page=1.1&pagesize=1&fromdate=1596220200&todate=1598725800&order=desc&sort=rank&inname=&min=&max=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+cache-control: private
+content-length: 77
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAll
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-redis-count: 1
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 1
+x-request-guid: 4dac8b74-7f0c-4662-a197-3deaa5d4fb87
+x-is-crawler: 0
+set-cookie: prov=f0b79179-eb5c-47e9-944d-4989851c3b5d; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: f0b79179-eb5c-47e9-944d-4989851c3b5d
+date: Sat, 22 Aug 2020 11:32:08 GMT
+
+{
+    "error_id": 400,
+    "error_message": "page",
+    "error_name": "bad_parameter"
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges?page=1&pagesize=10.1&fromdate=1596220200&todate=1598725800&order=desc&sort=rank&inname=&min=&max=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+cache-control: private
+content-length: 82
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAll
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-redis-count: 1
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 1
+x-request-guid: 5f4049a1-c64d-458f-be16-0ef6ad2eb34d
+x-is-crawler: 0
+set-cookie: prov=d3314b52-4116-4a6a-951d-1cc4def73cb7; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: d3314b52-4116-4a6a-951d-1cc4def73cb7
+date: Sat, 22 Aug 2020 11:32:09 GMT
+
+{
+    "error_id": 400,
+    "error_message": "pagesize",
+    "error_name": "bad_parameter"
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges?page=-1&pagesize=10&fromdate=1609439400&todate=1598725800&order=desc&sort=rank&inname=&min=&max=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+cache-control: private
+content-length: 77
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAll
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-redis-count: 4
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 1
+x-request-guid: 325c0e14-c5e3-4df6-bb3e-f9e367ed76d5
+x-is-crawler: 0
+set-cookie: prov=c1cd9229-b054-48b5-a7a0-fa44113effcd; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: c1cd9229-b054-48b5-a7a0-fa44113effcd
+date: Sat, 22 Aug 2020 11:32:11 GMT
+
+{
+    "error_id": 400,
+    "error_message": "page",
+    "error_name": "bad_parameter"
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges?page=1&pagesize=-10&fromdate=1609439400&todate=1598725800&order=desc&sort=rank&inname=&min=&max=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 86
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAll
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 5
+x-redis-count: 5
+x-redis-duration-ms: 1
+x-flags: AA
+x-aspnet-duration-ms: 9
+x-request-guid: 5683584e-6366-49d1-bf53-9b1d1edd4d8e
+x-is-crawler: 0
+set-cookie: prov=758d1c9c-c284-4941-acdf-e4fa62f37f45; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 758d1c9c-c284-4941-acdf-e4fa62f37f45
+date: Sat, 22 Aug 2020 11:32:12 GMT
+
+{
+    "items": [
+        
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 141
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges?page=1&pagesize=10&fromdate=&todate=&order=desc&sort=rank&inname=&min=&max=&site=abdcfdfg
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+cache-control: private
+content-length: 106
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAll
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-redis-count: 4
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 1
+x-request-guid: 505a3f4e-54aa-425f-8d71-eda786b67da2
+x-is-crawler: 0
+set-cookie: prov=793602a3-f4ca-4081-b3f7-af988e22cdef; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 793602a3-f4ca-4081-b3f7-af988e22cdef
+date: Sat, 22 Aug 2020 11:32:14 GMT
+
+{
+    "error_id": 400,
+    "error_message": "No site found for name `abdcfdfg`",
+    "error_name": "bad_parameter"
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges?page=1&pagesize=10&fromdate=&todate=&order=desc&sort=rank&inname=&min=&max=&site=11122332232
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+cache-control: private
+content-length: 108
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAll
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-redis-count: 1
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 1
+x-request-guid: fdeef05f-db1f-411a-a128-549832e7804b
+x-is-crawler: 0
+set-cookie: prov=1ac71c27-fc9e-4fe5-b07f-59c869f7c779; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 1ac71c27-fc9e-4fe5-b07f-59c869f7c779
+date: Sat, 22 Aug 2020 11:32:15 GMT
+
+{
+    "error_id": 400,
+    "error_message": "No site found for name `11122332232`",
+    "error_name": "bad_parameter"
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/tags?page=1&pagesize=1&fromdate=1596220200&todate=1598725800&order=desc&sort=rank&inname=gnuradio&min=bronze&max=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 180
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAllTagBased
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 10
+x-redis-count: 9
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 15
+x-request-guid: f3b49227-dc3d-473f-8574-2eb7cecc0c2c
+x-is-crawler: 0
+set-cookie: prov=7d8fdcca-41f1-41f9-a693-ab6bc74452c2; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 7d8fdcca-41f1-41f9-a693-ab6bc74452c2
+date: Sat, 22 Aug 2020 11:32:16 GMT
+
+{
+    "items": [
+        {
+            "badge_type": "tag_based",
+            "award_count": 1,
+            "rank": "bronze",
+            "badge_id": 6540,
+            "link": "https://stackoverflow.com/badges/6540/gnuradio",
+            "name": "gnuradio"
+        }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 138
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/tags?page=1&pagesize=10&fromdate=&todate=&order=desc&sort=rank&inname=regression&min=silver&max=silver&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 209
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAllTagBased
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 6
+x-redis-count: 5
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 9
+x-request-guid: 4cec224f-2c24-4eed-8394-d03700fc5691
+x-is-crawler: 0
+set-cookie: prov=123fc20e-6333-4514-b58f-bc50e4c048cf; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 123fc20e-6333-4514-b58f-bc50e4c048cf
+date: Sat, 22 Aug 2020 11:32:18 GMT
+
+{
+    "items": [
+        {
+            "badge_type": "tag_based",
+            "award_count": 1,
+            "rank": "silver",
+            "badge_id": 6829,
+            "link": "https://stackoverflow.com/badges/6829/regression",
+            "name": "regression"
+        },
+        {
+            "badge_type": "tag_based",
+            "award_count": 1,
+            "rank": "silver",
+            "badge_id": 7988,
+            "link": "https://stackoverflow.com/badges/7988/linear-regression",
+            "name": "linear-regression"
+        }
+    ],
+    "has_more": false,
+    "quota_max": 300,
+    "quota_remaining": 137
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/tags?page=1&pagesize=10&fromdate=&todate=&order=desc&sort=rank&inname=firebird&min=&max=gold&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 178
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAllTagBased
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 12
+x-redis-count: 5
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 17
+x-request-guid: b0493939-b51b-4ce8-a90a-a69789c98264
+x-is-crawler: 0
+set-cookie: prov=38c8156c-68ff-4e84-8cf1-47e61356add7; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 38c8156c-68ff-4e84-8cf1-47e61356add7
+date: Sat, 22 Aug 2020 11:32:20 GMT
+
+{
+    "items": [
+        {
+            "badge_type": "tag_based",
+            "award_count": 1,
+            "rank": "gold",
+            "badge_id": 7265,
+            "link": "https://stackoverflow.com/badges/7265/firebird",
+            "name": "firebird"
+        }
+    ],
+    "has_more": false,
+    "quota_max": 300,
+    "quota_remaining": 136
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/tags?page=1&pagesize=1&fromdate=&todate=&order=desc&sort=rank&inname=&min=&max=name&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+cache-control: private
+content-length: 78
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAllTagBased
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-redis-count: 1
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 1
+x-request-guid: 434060e6-742d-4877-af25-bd165d9dea87
+x-is-crawler: 0
+set-cookie: prov=03c55c35-26cb-470d-92dd-a7e58c15a739; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 03c55c35-26cb-470d-92dd-a7e58c15a739
+date: Sat, 22 Aug 2020 11:32:20 GMT
+
+{
+    "error_id": 400,
+    "error_message": "max",
+    "error_name": "bad_parameter"
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/tags?page=1&pagesize=1&fromdate=&todate=&order=desc&sort=rank&inname=&min=&max=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 178
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAllTagBased
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 7
+x-redis-count: 5
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 12
+x-request-guid: 82bc6cad-d2fb-420e-847e-8cb75cf5dbfb
+x-is-crawler: 0
+set-cookie: prov=029b17fb-ba98-4a58-bd0a-714fc0c82eda; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 029b17fb-ba98-4a58-bd0a-714fc0c82eda
+date: Sat, 22 Aug 2020 11:32:23 GMT
+
+{
+    "items": [
+        {
+            "badge_type": "tag_based",
+            "award_count": 1,
+            "rank": "bronze",
+            "badge_id": 5887,
+            "link": "https://stackoverflow.com/badges/5887/sparkr",
+            "name": "sparkr"
+        }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 134
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/tags?page=1&pagesize=1&fromdate=&todate=&order=desc&sort=rank&inname=&min=silver&max=silver&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 192
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAllTagBased
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 6
+x-redis-count: 5
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 10
+x-request-guid: ea5ef65c-c0b3-4d13-aaae-7b98ca7f0492
+x-is-crawler: 0
+set-cookie: prov=031f385a-47c6-4ffa-b4f5-0b32bb03d7aa; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 031f385a-47c6-4ffa-b4f5-0b32bb03d7aa
+date: Sat, 22 Aug 2020 11:32:24 GMT
+
+{
+    "items": [
+        {
+            "badge_type": "tag_based",
+            "award_count": 4,
+            "rank": "silver",
+            "badge_id": 6860,
+            "link": "https://stackoverflow.com/badges/6860/firebase-cloud-messaging",
+            "name": "firebase-cloud-messaging"
+        }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 133
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/1?page=1&pagesize=1&fromdate=1596220200&todate=1598725800&order=desc&sort=rank&inname=Teacher&min=bronze&max=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 183
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetByIds
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 43
+x-redis-count: 8
+x-redis-duration-ms: 1
+x-flags: AA
+x-aspnet-duration-ms: 51
+x-request-guid: 669d073e-32dc-4118-95a7-1bc1153b0081
+x-is-crawler: 0
+set-cookie: prov=6363a5ee-2146-4b34-b655-c583b720db0e; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 6363a5ee-2146-4b34-b655-c583b720db0e
+date: Sat, 22 Aug 2020 11:32:25 GMT
+
+{
+    "items": [
+        {
+            "badge_type": "named",
+            "award_count": 1612250,
+            "rank": "bronze",
+            "badge_id": 1,
+            "link": "https://stackoverflow.com/badges/1/teacher",
+            "name": "Teacher"
+        }
+    ],
+    "has_more": false,
+    "quota_max": 300,
+    "quota_remaining": 132
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/?page=1&pagesize=1&fromdate=&todate=&order=desc&sort=rank&inname=&min=&max=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 178
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAll
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 6
+x-redis-count: 8
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 9
+x-request-guid: b9713f5c-c316-4cca-a053-1100511556ce
+x-is-crawler: 0
+set-cookie: prov=d71d57d4-ece1-4b7c-a32d-8156483baa74; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: d71d57d4-ece1-4b7c-a32d-8156483baa74
+date: Sat, 22 Aug 2020 11:32:26 GMT
+
+{
+    "items": [
+        {
+            "badge_type": "tag_based",
+            "award_count": 1,
+            "rank": "bronze",
+            "badge_id": 5887,
+            "link": "https://stackoverflow.com/badges/5887/sparkr",
+            "name": "sparkr"
+        }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 131
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/ABCD?page=1&pagesize=1&fromdate=&todate=&order=desc&sort=rank&inname=&min=&max=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+cache-control: private
+content-length: 97
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Network/NoMethod
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-redis-count: 3
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 1
+x-request-guid: 5ae959b3-4fc3-4ae5-b5c1-57c4d03619a5
+x-is-crawler: 0
+set-cookie: prov=5944a7ab-3ec5-47cd-b266-7724698ad8c8; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 5944a7ab-3ec5-47cd-b266-7724698ad8c8
+date: Sat, 22 Aug 2020 11:32:28 GMT
+
+{
+    "error_id": 404,
+    "error_message": "no method found with this name",
+    "error_name": "no_method"
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/?page=1%201&pagesize=&fromdate=&todate=&order=desc&sort=rank&inname=&min=&max=%22%20&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+cache-control: private
+content-length: 77
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetAll
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-redis-count: 3
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 1
+x-request-guid: 45c3a0da-2b08-4921-a42f-803cc9f8dee2
+x-is-crawler: 0
+set-cookie: prov=8fe0f509-c982-40ad-93c9-ea663d69738c; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 8fe0f509-c982-40ad-93c9-ea663d69738c
+date: Sat, 22 Aug 2020 11:32:29 GMT
+
+{
+    "error_id": 400,
+    "error_message": "page",
+    "error_name": "bad_parameter"
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/recipients?page=1&pagesize=1&fromdate=1596220200&todate=1598725800&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 331
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetBadgeRecipients
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 0
+x-redis-count: 8
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 3
+x-request-guid: 3f7ad6b4-f42a-45b2-8a85-d83187d92f83
+x-is-crawler: 0
+set-cookie: prov=bebc9efb-ec58-450e-98c0-2b606bafd7f0; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: bebc9efb-ec58-450e-98c0-2b606bafd7f0
+date: Sat, 22 Aug 2020 11:32:30 GMT
+
+{
+    "items": [
+        {
+            "user": {
+                "reputation": 39,
+                "user_id": 12737273,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a-/AAuE7mA1wYaFdTs-sPJsIgIPJMSwsHax1qcuumDv2GUIcg=k-s128",
+                "display_name": "Karolina Zarzyczny",
+                "link": "https://stackoverflow.com/users/12737273/karolina-zarzyczny"
+            },
+            "badge_type": "named",
+            "rank": "bronze",
+            "badge_id": 2600,
+            "link": "https://stackoverflow.com/badges/2600/informed",
+            "name": "Informed"
+        }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 128
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/recipients?page=1&pagesize=10&fromdate=&todate=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 953
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetBadgeRecipients
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 3
+x-redis-count: 5
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 8
+x-request-guid: 0588cfe4-44f0-4266-8eb2-b0de35fd60a7
+x-is-crawler: 0
+set-cookie: prov=0bc90f63-dd05-411c-bc6a-8a45e61d43d7; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 0bc90f63-dd05-411c-bc6a-8a45e61d43d7
+date: Sat, 22 Aug 2020 11:32:32 GMT
+
+{
+    "items": [
+        {
+            "user": {
+                "reputation": 39,
+                "user_id": 12737273,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a-/AAuE7mA1wYaFdTs-sPJsIgIPJMSwsHax1qcuumDv2GUIcg=k-s128",
+                "display_name": "Karolina Zarzyczny",
+                "link": "https://stackoverflow.com/users/12737273/karolina-zarzyczny"
+            },
+            "badge_type": "named",
+            "rank": "bronze",
+            "badge_id": 2600,
+            "link": "https://stackoverflow.com/badges/2600/informed",
+            "name": "Informed"
+        },
+        {
+            "user": {
+                "reputation": 1,
+                "user_id": 14147307,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/a683099664d720821479e67fd7dc7aa2?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Kulikov Stepan",
+                "link": "https://stackoverflow.com/users/14147307/kulikov-stepan"
+            },
+            "badge_type": "named",
+            "rank": "bronze",
+            "badge_id": 9,
+            "link": "https://stackoverflow.com/badges/9/autobiographer",
+            "name": "Autobiographer"
+        },
+        {
+            "user": {
+                "reputation": 1,
+                "user_id": 14147684,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/kO3K3.jpg?s=128&g=1",
+                "display_name": "Will Cooper",
+                "link": "https://stackoverflow.com/users/14147684/will-cooper"
+            },
+            "badge_type": "named",
+            "rank": "bronze",
+            "badge_id": 9,
+            "link": "https://stackoverflow.com/badges/9/autobiographer",
+            "name": "Autobiographer"
+        },
+        {
+            "user": {
+                "reputation": 1,
+                "user_id": 14147560,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/1b5dd5298067f01908318c77dc27b77a?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Tom Hudson",
+                "link": "https://stackoverflow.com/users/14147560/tom-hudson"
+            },
+            "badge_type": "named",
+            "rank": "bronze",
+            "badge_id": 9,
+            "link": "https://stackoverflow.com/badges/9/autobiographer",
+            "name": "Autobiographer"
+        },
+        {
+            "user": {
+                "reputation": 1,
+                "user_id": 14144009,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/xTLwF.jpg?s=128&g=1",
+                "display_name": "T3SS3RACT",
+                "link": "https://stackoverflow.com/users/14144009/t3ss3ract"
+            },
+            "badge_type": "named",
+            "rank": "bronze",
+            "badge_id": 9,
+            "link": "https://stackoverflow.com/badges/9/autobiographer",
+            "name": "Autobiographer"
+        },
+        {
+            "user": {
+                "reputation": 1,
+                "user_id": 14147724,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/9b9cdce7c6792b9889b91c1f30e857bf?s=128&d=identicon&r=PG&f=1",
+                "display_name": "a6bltja079",
+                "link": "https://stackoverflow.com/users/14147724/a6bltja079"
+            },
+            "badge_type": "named",
+            "rank": "bronze",
+            "badge_id": 9,
+            "link": "https://stackoverflow.com/badges/9/autobiographer",
+            "name": "Autobiographer"
+        },
+        {
+            "user": {
+                "reputation": 71,
+                "user_id": 8112722,
+                "user_type": "registered",
+                "profile_image": "https://lh4.googleusercontent.com/-o-i3f35HlsI/AAAAAAAAAAI/AAAAAAAAMHQ/9EWPmz_aV00/photo.jpg?sz=128",
+                "display_name": "Chirag Kalra",
+                "link": "https://stackoverflow.com/users/8112722/chirag-kalra"
+            },
+            "badge_type": "named",
+            "rank": "bronze",
+            "badge_id": 31,
+            "link": "https://stackoverflow.com/badges/31/commentator",
+            "name": "Commentator"
+        },
+        {
+            "user": {
+                "reputation": 1,
+                "user_id": 13975293,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/c6b7acb5678e6165276c16918c5cc0d5?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Mahmoud_omrani",
+                "link": "https://stackoverflow.com/users/13975293/mahmoud-omrani"
+            },
+            "badge_type": "named",
+            "rank": "bronze",
+            "badge_id": 3,
+            "link": "https://stackoverflow.com/badges/3/editor",
+            "name": "Editor"
+        },
+        {
+            "user": {
+                "reputation": 11,
+                "user_id": 14147698,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/35d5977307c65e58f8f79971c6f74250?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Elliot Alderson",
+                "link": "https://stackoverflow.com/users/14147698/elliot-alderson"
+            },
+            "badge_type": "named",
+            "rank": "bronze",
+            "badge_id": 3,
+            "link": "https://stackoverflow.com/badges/3/editor",
+            "name": "Editor"
+        },
+        {
+            "user": {
+                "reputation": 855,
+                "user_id": 3500359,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/mjXaQ.jpg?s=128&g=1",
+                "display_name": "Pankaj Agrawal",
+                "link": "https://stackoverflow.com/users/3500359/pankaj-agrawal"
+            },
+            "badge_type": "named",
+            "rank": "silver",
+            "badge_id": 18,
+            "link": "https://stackoverflow.com/badges/18/guru",
+            "name": "Guru"
+        }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 127
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/recipients?page=-1&pagesize=1&fromdate=&todate=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+cache-control: private
+content-length: 77
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetBadgeRecipients
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-redis-count: 1
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 2
+x-request-guid: 7d17a142-5d7f-46f9-bd1e-aa2bf3729514
+x-is-crawler: 0
+set-cookie: prov=839213ca-1471-46ab-9501-8818bc92179f; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 839213ca-1471-46ab-9501-8818bc92179f
+date: Sat, 22 Aug 2020 11:32:33 GMT
+
+{
+    "error_id": 400,
+    "error_message": "page",
+    "error_name": "bad_parameter"
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/5893/recipients?page=1&pagesize=1&fromdate=&todate=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 335
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetBadgeRecipientsByIds
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 9
+x-redis-count: 8
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 13
+x-request-guid: 5553c307-7188-4865-a073-1561e7aa18ab
+x-is-crawler: 0
+set-cookie: prov=7f7539ca-67af-4140-9479-05938bfa7553; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 7f7539ca-67af-4140-9479-05938bfa7553
+date: Sat, 22 Aug 2020 11:32:34 GMT
+
+{
+    "items": [
+        {
+            "user": {
+                "reputation": 31081,
+                "user_id": 3814029,
+                "user_type": "registered",
+                "accept_rate": 67,
+                "profile_image": "https://www.gravatar.com/avatar/be86267e6e7ce47635626f06dcffe63e?s=128&d=identicon&r=PG",
+                "display_name": "Andy Guibert",
+                "link": "https://stackoverflow.com/users/3814029/andy-guibert"
+            },
+            "badge_type": "tag_based",
+            "rank": "bronze",
+            "badge_id": 5893,
+            "link": "https://stackoverflow.com/badges/5893/websphere-liberty",
+            "name": "websphere-liberty"
+        }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 125
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/5898%3B5899%3B5900%3B5901%3B5902%3B5903%3B5904%3B5905%3B5906%3B5907%3B5908%3B5909%3B5910%3B5911%3B5912%3B5913%3B5914%3B5915%3B5916%3B5917%3B5918%3B5919%3B5920%3B5921%3B5922%3B5923%3B5924%3B5925%3B5926%3B5927%3B5928%3B5929%3B5930%3B5931%3B5932%3B5933%3B5934%3B5935%3B5936%3B5937%3B5938%3B5939%3B5940%3B5941%3B5942%3B5943%3B5944%3B5945%3B5946%3B5947%3B5948%3B5949%3B5950%3B5951%3B5952%3B5953%3B5954%3B5955%3B5956%3B5957%3B5958%3B5959%3B5960%3B5961%3B5962%3B5963%3B5964%3B5965%3B5966%3B5967%3B5968%3B5969%3B5970%3B5971%3B5972%3B5973%3B5974%3B5975%3B5976%3B5977%3B5978%3B5979%3B5980%3B5981%3B5982%3B5983%3B5984%3B5985%3B5986%3B5987%3B5988%3B5989%3B5990%3B5991%3B5992%3B5993%3B5994%3B5995%3B5996%3B5997/recipients?page=1&pagesize=10&fromdate=&todate=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: private
+content-length: 929
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetBadgeRecipientsByIds
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-sql-count: 1
+x-sql-duration-ms: 35
+x-redis-count: 5
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 40
+x-request-guid: f5267722-809d-4619-8088-9ef331772cd0
+x-is-crawler: 0
+set-cookie: prov=bbef81f5-4357-4721-8c81-0a705369f435; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: bbef81f5-4357-4721-8c81-0a705369f435
+date: Sat, 22 Aug 2020 11:32:37 GMT
+
+{
+    "items": [
+        {
+            "user": {
+                "reputation": 33938,
+                "user_id": 5344058,
+                "user_type": "registered",
+                "profile_image": "https://lh4.googleusercontent.com/-stTbjZ7x-P8/AAAAAAAAAAI/AAAAAAAAAAo/Sd95DB3qdzQ/photo.jpg?sz=128",
+                "display_name": "Tzach Zohar",
+                "link": "https://stackoverflow.com/users/5344058/tzach-zohar"
+            },
+            "badge_type": "tag_based",
+            "rank": "silver",
+            "badge_id": 5913,
+            "link": "https://stackoverflow.com/badges/5913/dataframe",
+            "name": "dataframe"
+        },
+        {
+            "user": {
+                "reputation": 16073,
+                "user_id": 12833166,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/p1a2a.jpg?s=128&g=1",
+                "display_name": "Shubham Sharma",
+                "link": "https://stackoverflow.com/users/12833166/shubham-sharma"
+            },
+            "badge_type": "tag_based",
+            "rank": "silver",
+            "badge_id": 5913,
+            "link": "https://stackoverflow.com/badges/5913/dataframe",
+            "name": "dataframe"
+        },
+        {
+            "user": {
+                "reputation": 20264,
+                "user_id": 7632695,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/DYDxo.jpg?s=128&g=1",
+                "display_name": "484",
+                "link": "https://stackoverflow.com/users/7632695/484"
+            },
+            "badge_type": "tag_based",
+            "rank": "bronze",
+            "badge_id": 5915,
+            "link": "https://stackoverflow.com/badges/5915/dataframe",
+            "name": "dataframe"
+        },
+        {
+            "user": {
+                "reputation": 41943,
+                "user_id": 234590,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/463c0219a51a5d1fd08e1fa280811b57?s=128&d=identicon&r=PG",
+                "display_name": "Francis Gagn&#233;",
+                "link": "https://stackoverflow.com/users/234590/francis-gagn%c3%a9"
+            },
+            "badge_type": "tag_based",
+            "rank": "bronze",
+            "badge_id": 5929,
+            "link": "https://stackoverflow.com/badges/5929/rust-cargo",
+            "name": "rust-cargo"
+        },
+        {
+            "user": {
+                "reputation": 12926,
+                "user_id": 182895,
+                "user_type": "registered",
+                "accept_rate": 71,
+                "profile_image": "https://www.gravatar.com/avatar/d5248a1fb556fc9c86a41532cf97100e?s=128&d=identicon&r=PG",
+                "display_name": "PatrickSteele",
+                "link": "https://stackoverflow.com/users/182895/patricksteele"
+            },
+            "badge_type": "tag_based",
+            "rank": "bronze",
+            "badge_id": 5916,
+            "link": "https://stackoverflow.com/badges/5916/vue-js",
+            "name": "vue.js"
+        },
+        {
+            "user": {
+                "reputation": 5182,
+                "user_id": 8986975,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/c4dbf6ceac986310e45b40a982c16fad?s=128&d=identicon&r=PG&f=1",
+                "display_name": "wwnde",
+                "link": "https://stackoverflow.com/users/8986975/wwnde"
+            },
+            "badge_type": "tag_based",
+            "rank": "bronze",
+            "badge_id": 5915,
+            "link": "https://stackoverflow.com/badges/5915/dataframe",
+            "name": "dataframe"
+        },
+        {
+            "user": {
+                "reputation": 32994,
+                "user_id": 12500315,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/2liqZ.jpg?s=128&g=1",
+                "display_name": "Allan Cameron",
+                "link": "https://stackoverflow.com/users/12500315/allan-cameron"
+            },
+            "badge_type": "tag_based",
+            "rank": "bronze",
+            "badge_id": 5915,
+            "link": "https://stackoverflow.com/badges/5915/dataframe",
+            "name": "dataframe"
+        },
+        {
+            "user": {
+                "reputation": 40134,
+                "user_id": 2937831,
+                "user_type": "registered",
+                "accept_rate": 78,
+                "profile_image": "https://www.gravatar.com/avatar/56c4053438af8e8b90d6f53cbb7573be?s=128&d=identicon&r=PG",
+                "display_name": "jakevdp",
+                "link": "https://stackoverflow.com/users/2937831/jakevdp"
+            },
+            "badge_type": "tag_based",
+            "rank": "bronze",
+            "badge_id": 5915,
+            "link": "https://stackoverflow.com/badges/5915/dataframe",
+            "name": "dataframe"
+        },
+        {
+            "user": {
+                "reputation": 7115,
+                "user_id": 4684861,
+                "user_type": "registered",
+                "accept_rate": 86,
+                "profile_image": "https://i.stack.imgur.com/z6Pf7.jpg?s=128&g=1",
+                "display_name": "Mohamed Thasin ah",
+                "link": "https://stackoverflow.com/users/4684861/mohamed-thasin-ah"
+            },
+            "badge_type": "tag_based",
+            "rank": "bronze",
+            "badge_id": 5915,
+            "link": "https://stackoverflow.com/badges/5915/dataframe",
+            "name": "dataframe"
+        },
+        {
+            "user": {
+                "reputation": 7662,
+                "user_id": 1483981,
+                "user_type": "registered",
+                "accept_rate": 42,
+                "profile_image": "https://www.gravatar.com/avatar/e985c085033d58082edcda227f439a88?s=128&d=identicon&r=PG",
+                "display_name": "AWolf",
+                "link": "https://stackoverflow.com/users/1483981/awolf"
+            },
+            "badge_type": "tag_based",
+            "rank": "bronze",
+            "badge_id": 5916,
+            "link": "https://stackoverflow.com/badges/5916/vue-js",
+            "name": "vue.js"
+        }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 124
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/5913/recipients?page=-1&pagesize=1&fromdate=&todate=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+cache-control: private
+content-length: 77
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetBadgeRecipientsByIds
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-redis-count: 1
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 1
+x-request-guid: bd6b6340-0f2a-42c1-8c99-ae7760722c24
+x-is-crawler: 0
+set-cookie: prov=be9358dc-9e90-417c-952d-9cd1d89a7aa1; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: be9358dc-9e90-417c-952d-9cd1d89a7aa1
+date: Sat, 22 Aug 2020 11:32:37 GMT
+
+{
+    "error_id": 400,
+    "error_message": "page",
+    "error_name": "bad_parameter"
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/5913%2C5899/recipients?page=1&pagesize=1&fromdate=&todate=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+cache-control: private
+content-length: 97
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Network/NoMethod
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-redis-count: 3
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 1
+x-request-guid: aabce47b-a892-4c8d-9b3f-531e97184394
+x-is-crawler: 0
+set-cookie: prov=78fb47de-89b9-4cdc-b5f4-3aa34151ba2d; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 78fb47de-89b9-4cdc-b5f4-3aa34151ba2d
+date: Sat, 22 Aug 2020 11:32:39 GMT
+
+{
+    "error_id": 404,
+    "error_message": "no method found with this name",
+    "error_name": "no_method"
+}
+Request method:	GET
+Request URI:	https://api.stackexchange.com/2.2/badges/5898%3B5899%3B5900%3B5901%3B5902%3B5903%3B5904%3B5905%3B5906%3B5907%3B5908%3B5909%3B5910%3B5911%3B5912%3B5913%3B5914%3B5915%3B5916%3B5917%3B5918%3B5919%3B5920%3B5921%3B5922%3B5923%3B5924%3B5925%3B5926%3B5927%3B5928%3B5929%3B5930%3B5931%3B5932%3B5933%3B5934%3B5935%3B5936%3B5937%3B5938%3B5939%3B5940%3B5941%3B5942%3B5943%3B5944%3B5945%3B5946%3B5947%3B5948%3B5949%3B5950%3B5951%3B5952%3B5953%3B5954%3B5955%3B5956%3B5957%3B5958%3B5959%3B5960%3B5961%3B5962%3B5963%3B5964%3B5965%3B5966%3B5967%3B5968%3B5969%3B5970%3B5971%3B5972%3B5973%3B5974%3B5975%3B5976%3B5977%3B5978%3B5979%3B5980%3B5981%3B5982%3B5983%3B5984%3B5985%3B5986%3B5987%3B5988%3B5989%3B5990%3B5991%3B5992%3B5993%3B5994%3B5995%3B5996%3B5997%3B5998/recipients?page=1&pagesize=1&fromdate=&todate=&site=stackoverflow
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer *UZo21izl23IAf3HbSLvtA((
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+cache-control: private
+content-length: 78
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+server: Microsoft-IIS/10.0
+strict-transport-security: max-age=2592000
+x-route-name: Badges/GetBadgeRecipientsByIds
+access-control-allow-origin: *
+access-control-allow-methods: GET, POST
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-redis-count: 1
+x-redis-duration-ms: 0
+x-flags: AA
+x-aspnet-duration-ms: 1
+x-request-guid: e99ad712-af59-462d-9b07-164541699042
+x-is-crawler: 0
+set-cookie: prov=0e7ada46-8598-45a6-8125-1ca11a410375; expires=Fri, 01 Jan 2055 00:00:00 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly
+x-providence-cookie: 0e7ada46-8598-45a6-8125-1ca11a410375
+date: Sat, 22 Aug 2020 11:32:41 GMT
+
+{
+    "error_id": 400,
+    "error_message": "ids",
+    "error_name": "bad_parameter"
+}

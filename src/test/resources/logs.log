@@ -1,0 +1,41 @@
+
+ tags size=36
+ tagText=.a	 :: questionsText=124
+ tagText=.ajax	 :: questionsText=0
+ tagText=.app	 :: questionsText=135
+ tagText=.aspxauth	 :: questionsText=58
+ tagText=.avi	 :: questionsText=0
+ tagText=.bash-profile	 :: questionsText=510
+ tagText=.bashrc	 :: questionsText=0
+ tagText=.bat	 :: questionsText=0
+ tagText=.class-file	 :: questionsText=256
+ tagText=.cs-file	 :: questionsText=0
+ tagText=.cshtml	 :: questionsText=0
+ tagText=.csv	 :: questionsText=0
+ tagText=.ctf	 :: questionsText=1
+ tagText=.d.ts	 :: questionsText=85
+ tagText=.deb	 :: questionsText=0
+ tagText=.dll	 :: questionsText=0
+ tagText=.doc	 :: questionsText=136
+ tagText=.each	 :: questionsText=0
+ tagText=.emf	 :: questionsText=55
+ tagText=.flv	 :: questionsText=0
+ tagText=.getjson	 :: questionsText=0
+ tagText=.git-folder	 :: questionsText=19
+ tagText=.git-info-grafts	 :: questionsText=6
+ tagText=.hgignore	 :: questionsText=0
+ tagText=.hgtags	 :: questionsText=9
+ tagText=.htaccess	 :: questionsText=68396
+ tagText=.htpasswd	 :: questionsText=496
+ tagText=.ico	 :: questionsText=26
+ tagText=.inf	 :: questionsText=1
+ tagText=.ini	 :: questionsText=0
+ tagText=.jar	 :: questionsText=0
+ tagText=.java	 :: questionsText=0
+ tagText=.js	 :: questionsText=0
+ tagText=.layerdiagram	 :: questionsText=1
+ tagText=.lib	 :: questionsText=116
+ tagText=.loc	 :: questionsText=4
+ questionTagMap size=18
+ max=68396
+message=Tag(s) [.htaccess] have 68396 questions.
