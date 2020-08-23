@@ -5,8 +5,8 @@ This repository is created for cloud cover project. The objective of this projec
 
 The Web and API test can be executed in 3 ways - 
 1. Execute by running the individual runner file - 
-	a. For UI Tests  : `TestRunnerUI.java`
-	b. For API Tests : `TestRunnerAPI.java`
+	* For UI Tests  : `TestRunnerUI.java`
+	* For API Tests : `TestRunnerAPI.java`
 2. Execute by running the runner file `ParallelTestRunnerIT.java` which would run both Web and API tests
 3. Execute by running a Maven command `mvn clean test` which would run both Web and API tests
 
